@@ -1,7 +1,10 @@
 {
-    "name": "vk-download-posts",
+    "name": "vk-fetch-posts",
     "version": "0.0.1",
-
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/kblcuk/vk-fetch-posts"
+    },
     "description": "A simple command-line tool for fetching wall posts from Vkontakte social network",
     "author": "Alexei Mikhailov",
     "engines": {
@@ -12,8 +15,5 @@
         "request": ">=2.39.0",
         "commander": ">=2.3.0",
         "filequeue": ">=0.5.0"
-    },
-    "bin": {
-        "vk-download-posts": "gitsearch.js"
     }
 }
