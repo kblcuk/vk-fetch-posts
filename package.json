@@ -1,0 +1,19 @@
+{
+    "name": "vk-download-posts",
+    "version": "0.0.1",
+
+    "description": "A simple command-line tool for fetching wall posts from Vkontakte social network",
+    "author": "Alexei Mikhailov",
+    "engines": {
+        "node": ">=0.10"
+    },
+    "dependencies": {
+        "mkdirp": ">=0.5.0",
+        "request": ">=2.39.0",
+        "commander": ">=2.3.0",
+        "filequeue": ">=0.5.0"
+    },
+    "bin": {
+        "vk-download-posts": "gitsearch.js"
+    }
+}
