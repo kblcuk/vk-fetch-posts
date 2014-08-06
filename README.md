@@ -1,9 +1,12 @@
 # VK posts fetcher
-
 This is a fairly simple command-line tool to fetch all posts from certain author(s) wall
 in [VKontakte](https://vk.com) social network.
 I needed it once for my personal usage, and decided to put it here in case
 someone would have a similar need.
+
+API's used:
+ * [wall.get](https://vk.com/pages?oid=-17680044&p=wall.get)
+ * [getProfiles](https://vk.com/pages?oid=-17680044&p=getProfiles)
 
 # Running
 Make sure you have Node installed (duh). Then:
@@ -14,5 +17,4 @@ Make sure you have Node installed (duh). Then:
 The resulting posts will appear in `results` folder.
 
 # Known issues
-I didn't add much error handling, since this was
-pretty much a one-time used tool. So this tool might fail ungracefully.
+I didn't add much error handling, since this was a one-time used tool. Hence it _might_ fail ungracefully.
