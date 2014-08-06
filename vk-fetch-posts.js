@@ -92,7 +92,7 @@ function fetchPosts(offset, totalPosts, count) {
         res.on('end', function () {
             if (!totalPosts) {
                 var responseJson = JSON.parse(responseString);
-                totalPosts = 42;//responseJson.response[0];
+                totalPosts = responseJson.response[0];
             }
             fq.writeFile(source + 'batch_' + offset + '.txt', responseString, function () {
                 console.log("Downloaded posts batch " + offset);
